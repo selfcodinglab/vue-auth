@@ -6,7 +6,7 @@ const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const User = require('./models/User');
 
-mongoose.connect('mongodb://admin:admin123@ds155616.mlab.com:55616/auth-sandbox');
+mongoose.connect('enter your mongodb url here');
 
 const app = express();
 app.use(cors());
